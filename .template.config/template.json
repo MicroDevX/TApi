@@ -5,7 +5,7 @@
   "identity": "MicroDevX.WebApiSwagger",
   "name": "Web API Swagger",
   "shortName": "webapiswagger",
-  "sourceName": "OriginalTemplateName",
+  "sourceName": "TApi",
   "tags": {
     "language": "C#",
     "type": "project"

@@ -4,7 +4,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageType>Template</PackageType>
-    <Version>1.0.1</Version>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <Version>1.0.2</Version>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IsPackable>true</IsPackable>
     <Authors>MicroDevX</Authors>
