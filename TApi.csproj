@@ -16,6 +16,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="LICENSE.txt" />
+    <Compile Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".template.config/template.json" />
