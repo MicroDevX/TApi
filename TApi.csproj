@@ -13,10 +13,11 @@
     <PackageTags>template;webapi;swagger;nswag;dotnet</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/MicroDevX/TApi</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Copyright>Copyright © MicroDevX 2024</Copyright>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="LICENSE.txt" />
-    <Compile Include="README.md" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".template.config/template.json" />
@@ -24,5 +25,8 @@
   <ItemGroup>
     <PackageReference Include="NSwag.AspNetCore" Version="14.6.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>

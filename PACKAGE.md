@@ -1,13 +1,6 @@
-
-# TApi
+# About
 
 ## A .NET 9 Web API template with Swagger UI integrated using NSwag
-
-## Install
-
-```.NET Cli
-dotnet new install TApi::1.0.0
-```
 
 ## Usage
 
