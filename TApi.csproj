@@ -4,6 +4,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageType>Template</PackageType>
+    <Version>1.0.1</Version>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IsPackable>true</IsPackable>
     <Authors>MicroDevX</Authors>
@@ -15,6 +16,7 @@
     <RepositoryUrl>https://github.com/MicroDevX/TApi</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Copyright>Copyright © MicroDevX 2024</Copyright>
+    <PackageIcon>Icon.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
     <None Include="README.md" />
@@ -28,5 +30,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="Icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>
